@@ -269,3 +269,54 @@ footer {
     width: 100%;
   }
 }
+
+---------------------------
+
+
+.global-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li{
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+#about {
+  background-image: url(../images/bg-about.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#about .career th {
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+
+#about .career td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
